@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	width:1900px;
+	height:auto;
+	margin:0 auto;
+	box-shadow:0px 0px 50px #666666;
+	background:#FFF;
+}
+nav{
+	width:100%;
+	height:70px;
+	background:#2E2E2E;
+	text-align:center;
+}
+.nav ul li{
+	display:inline-block;
+	padding:25px;
+}
+.nav ul li a{
+	text-decoration:none;
+	color:#FFF;
+	padding:30px;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.nav ul li a:hover{
+	color:#999;
+}
+
+
+header{
+	width:100%;
+	
+}
+.header img{
+	width:100%;
+}
+
+.article{
+	width:100%;
+	height:800px;
+	background-image:url(image/31f3c48915de4b518af1b4ca2fcc782e.png);
+	background:white;
+	text-align:center;
+	padding-top:50px;
+}
+.section h1{
+	font-size:30px;
+	font-family:"Courier New", Courier, monospace
+}
+.section p{
+	font-family:"Courier New", Courier, monospace
+	
+}
+.section hr{
+	width:40px;
+	height:2px;
+	background:#000;
+}
+.book{
+	width:900px;
+	height:400px;
+	border:2px solid #333;
+}
+.chu{
+	float:left;
+	width:400px;
+	height:400px;
+	padding-top:50px;
+}
+.chu button{
+	padding:15px;
+	background:#000;
+	color:#FFF;
+}
+.chu button:hover{
+	padding:15px;
+	background:#FFF;
+	color:#000;
+	border:2px solid #000;
+}
+footer{
+	background:#2E2E2E;
+	width:100%;
+	
+}
+.footer ul li{
+	display:block;
+	text-align:left;
+}
+.footer ul li a{
+	text-decoration:none;
+	color:#CCC;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:15px;
+	font-weight:lighter;
+	padding:5px;
+	
+}
+.footer ul li a:hover{
+	text-decoration:underline;
+}
+.footer table{
+	width:100%;
+}
+.footer p{
+	color:#CCC;
+	padding:20px;
+	padding-left:40px;
+	text-align:justify;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+th{ width:16.6%}
+
+
+
+
+
+
+
+
+
+.block{
+    width:500px;
+    height: 400px;
+    position: relative;
+	float:left;
+}
+/*Khung chứa nội dung*/
+.block .block-wrapper{
+    width:500px;
+    height: 400px;
+    position: absolute;
+    top:0;
+    left:0;
+    overflow:hidden;
+	
+}
+
+/*Mặt trước chứa hình ảnh*/
+.block .front-side{
+    background: #2D3E50;
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    top: 0;
+    left: 0;
+    
+    display: flex;
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    cursor:pointer;
+    -webkit-transition:all .4s ease-in-out;
+    -moz-transition:all .4s ease-in-out;
+    -o-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out;
+    z-index:2;
+}
+.block .front-side img{
+  width:500px;;
+  height:400px;
+}
+
+/*Mặt sau chứa tiêu đề và mô tả*/
+.block .back-side{
+    background:#FFF;
+    color:#000;
+    position: absolute;
+    width:500px;
+    height: 400px;
+    top:0;
+    left:0;
+    padding: 50px;
+	padding-top:100px;
+    z-index:1;
+    box-sizing: border-box;
+	
+}
+
+.block .back-side h1{
+  font-size: 18px;
+  margin:0;
+}
+.block:hover .front-side{
+  top:-100%;
+  left:100%;
+}
+/*Thay đổi top:100% để di chuyển xuống dưới, left:-100% để di chuyển về bên trái*/
+.block.reverse:hover .front-side{
+    top: 100%;
+    left: -100%;
+}
+

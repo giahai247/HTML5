@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	width:1900px;
+	height:auto;
+	margin:0 auto;
+	box-shadow:0px 0px 50px #666666;
+	background:#FFF;
+}
+nav{
+	width:100%;
+	height:70px;
+	background:#2E2E2E;
+	text-align:center;
+}
+.nav ul li{
+	display:inline-block;
+	padding:25px;
+}
+.nav ul li a{
+	text-decoration:none;
+	color:#FFF;
+	padding:30px;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.nav ul li a:hover{
+	color:#999;
+}
+
+
+header{
+	width:100%;
+	height:150px;
+	background:#FFF;
+	
+}
+.header img{
+	
+}
+
+.article{
+	width:100%;
+	height:auto;
+	background-image:url(image/aaaaaa.jpg);
+	
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:100px;
+}
+section{
+	background:#FFF;
+	width:700px;
+	height:550px;
+	padding:50px 50px 50px 50px;
+	text-align:center;
+}
+.section h1{
+	font-size:30px;
+	font-family:"Courier New", Courier, monospace
+}
+.section hr{
+	width:40px;
+	height:2px;
+	background:#000;
+}
+
+
+h2{
+	color:#FFF;
+}
+h3{
+	color:#FFF;
+	padding:5px;
+}
+.article .form{
+	width:50%;
+	float:left;
+	
+}
+marquee{
+	float:left;
+	width:50%;
+}
+input{
+	padding:10px;
+	margin:10px;
+}
+input:hover{
+	border:2px outset #3CF;
+}
+textarea{
+	padding:10px;
+	margin:10px;
+	
+}
+textarea:hover{
+	border:2px outset #3CF;
+}
+button{
+	width:200px;
+	background:#000;
+	color:#FFF;
+	padding:10px;
+}
+button:hover{
+	background:#333;
+	color:#FFF;
+	border:2px outset #3CF;
+}
+.article .chu{
+	text-align:left;
+	width:40%;
+	padding-left:50px;
+	float:left;
+	font-family:"Courier New", Courier, monospace;
+	font-size:18px;
+}
+footer{
+	background:#2E2E2E;
+	width:100%;
+	
+}
+.footer ul li{
+	display:block;
+	text-align:left;
+}
+.footer ul li a{
+	text-decoration:none;
+	color:#CCC;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:15px;
+	font-weight:lighter;
+	padding:5px;
+	
+}
+.footer ul li a:hover{
+	text-decoration:underline;
+}
+.footer table{
+	width:100%;
+}
+.footer p{
+	color:#CCC;
+	padding:20px;
+	padding-left:40px;
+	text-align:justify;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+th{
+	width:16.6%}
